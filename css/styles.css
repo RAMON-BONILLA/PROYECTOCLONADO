@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+  }
+  body{
+    height: 1000px;
+    background-color:#FEEEA;
+    font-family: karla;
+    background-image: url(https://images.pexels.com/photos/2129796/pexels-photo-2129796.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+    
+  }
+  ul{
+    list-style-type: none;
+    overflow: hidden;
+    background: #FFD523;
+    font-weight: bold;
+    
+  }
+  
+  li{
+    float: left;
+    border-radius:10px 0px 20px 10px;
+  }
+  
+  a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #053742;
+    
+  }
+  
+  }
+  .image{
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
+  }
+  img{
+    width: 100%;
+    overflow: hidden;
+    height: 600px;
+  }
+  
+  h1,p{
+    margin-bottom: 10px;
+    color:#01937C;
+    padding:0px 20px 0px 20px;
+  }
+  p{
+    font-weight:200;
+    padding:0px 20px 0px 20px;
+  }
+  
+  .leer{
+    border: 1px solid #DBE6FD;
+    padding: 10px;
+    width: 80px;
+    font-weigth: bold;
+    padding-left:100px;
+    padding-right:100px;
+  }
+  .leer:hover{
+    background-color:#343F56;
+    transition: 0.5s;
+  }
+  
+  li:hover{
+    background-color:#A7C4BC;
+    
+  }
+  
+  .card{
+    width: 1200px;
+    margin: 20px auto;
+    background-color: #CAF7E3;
+    box-shadow: 1px 1px 5px;
+    border-radius: 5px;
+    overflow: hidden; 
+  }
+  
+  footer{
+    height: 50px;
+    text-align:center;
+    background: #2940D3;
+    padding-top: 30px;
+    font-size:20px;
+  }
